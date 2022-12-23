@@ -1,4 +1,4 @@
-//Ingreso de datos
+/* //Ingreso de datos
 let sexo
 let peso
 let resultado 
@@ -48,6 +48,19 @@ function CalcularIMC() {
 
 return alert("Su IMC es: " + indice.toFixed(2) + " y su clasificación es: " + resultado)
 }
-resultado = CalcularIMC(sexo, altura, peso);
+resultado = CalcularIMC();
+ */
+/*  const personal = {nombre: "Noelia", edad: 32, calle: "De la querencia 1265"};
+ for (const nombre in personal){
+  alert(personal[nombre]);
+ }
 
+ class persona{
+  constructor (nombre, edad, calle){
 
+  }
+ } */
+ const numeros = [1,2,3,4,5];
+ for (let index = 0, index < 5; index++) {
+  alert(numeros[index]);
+ }
