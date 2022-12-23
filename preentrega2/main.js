@@ -38,6 +38,7 @@ while(agregar_libros){
      }
      
 }
+
 console.log(libros_carrito)
 total_libros=0
 cantidad=0
@@ -48,32 +49,3 @@ libros_carrito.forEach(lib => {
 });
 alert("El total a pagar es de: " + total_libros)
 
-/* function eliminar_carrito(id){
-    let numero = libros_carrito.indexOf(item => item.id === id)
-
-} */
-
-
-
-
-
-
-
-/* while(agregar_libros){
-    let cantidad_libros = "";
-     for(let libro of libros_carrito){
-        cantidad_libros += libro.id + "-" + libro.titulo + libro.autor + " -$" + libro.precio + "\n";
-     }
-     let id_libro = parseInt(prompt("Seleccione las obras que desea eliminar del carrito: (marque 0 para salir)\n" + cantidad_libros));
-     let libro = buscar_libro(id_libro)
-     
-     if(libro > 0 ){
-        eliminar_carrito(id_libro)
-     } else {
-        break;
-     }
-     agregar_libros = confirm("¿Desea eliminar más libros?")
-     
-     
-}
- */
