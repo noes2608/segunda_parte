@@ -36,7 +36,7 @@ function CalcularIMC() {
        resultado = "Su peso es normal" 
     }
     else if (indice >= 25 && indice < 30) {
-        resultado ="Su pero es superior al normal"
+        resultado ="Su peso es superior al normal"
     }
     else {
         resultado ="Obesidad"
